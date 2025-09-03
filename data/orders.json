@@ -1,0 +1,37 @@
+[
+  {
+    "order_id": "ORD-1001",
+    "carrier": "UPS",
+    "tracking_number": "1Z999AA10123456784",
+    "status": "In transit",
+    "last_location": "Sparks, NV",
+    "eta": "2025-09-03",
+    "history": [
+      {
+        "ts": "2025-08-30T09:12:00Z",
+        "event": "Departed facility",
+        "loc": "Sparks, NV"
+      },
+      {
+        "ts": "2025-08-29T18:30:00Z",
+        "event": "Arrived at hub",
+        "loc": "Reno, NV"
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-2002",
+    "carrier": "FedEx",
+    "tracking_number": "449044304137821",
+    "status": "Out for delivery",
+    "last_location": "San Jose, CA",
+    "eta": "2025-09-01",
+    "history": [
+      {
+        "ts": "2025-09-01T14:00:00Z",
+        "event": "Out for delivery",
+        "loc": "San Jose, CA"
+      }
+    ]
+  }
+]

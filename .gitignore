@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+dist/
+build/
+*_cache/
+.idea/
+*.iml
+target/
+.mvn/
+*.log
+.DS_Store
+_index/
